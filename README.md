@@ -1,5 +1,5 @@
 # E-commerce-website-php
-E-commerce Website in `OOP Php`, `Bootstrap`, `Owl carousel`, `PHP partial Template`, `SASS`, `font-awesome` and `JQuery`.
+E-commerce Website in `OOP Php`, `Bootstrap`, `Owl carousel`, `PHP partial Template`, `SASS`, `Google Fonts`, `font-awesome` and `JQuery`.
 
 > Used technologies :-
 >- HTML & CSS
@@ -22,3 +22,4 @@ E-commerce Website in `OOP Php`, `Bootstrap`, `Owl carousel`, `PHP partial Templ
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"sass ./sass/style.scss style.css --watch"
   },
+> - - `npm start` in terminal
