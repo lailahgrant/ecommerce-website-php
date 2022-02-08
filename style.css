@@ -6,6 +6,10 @@ button, button:focus {
   box-shadow: none !important;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 /* typography classes**/
 .font-os {
   font-family: "Oswald", cursive;
@@ -29,6 +33,23 @@ button, button:focus {
 
 .font-size-20 {
   font-size: 20px;
+}
+
+/*Color Template*/
+.color-primary {
+  color: #27ae60;
+}
+
+.color-primary-bg {
+  background: #27ae60;
+}
+
+.color-secondary {
+  color: #219150;
+}
+
+.color-secondary-bg {
+  background: #219150;
 }
 
 /*# sourceMappingURL=style.css.map */
