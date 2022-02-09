@@ -34,6 +34,26 @@ $(document).ready(function () {
     $(".button-group").on("click", "button", function () {
         var filterValue = $(this).attr('data-filter');
         $grid.isotope({ filter: filterValue });
-    })
+    });
+
+    // new gadgets owl carousel
+    $("#new-gadgets .owl-carousel").owlCarousel({
+        loop: true,
+        dots: true,
+        nav: false,
+        
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            }
+        }
+    });
+
 
 });
