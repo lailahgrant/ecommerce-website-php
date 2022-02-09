@@ -3,6 +3,8 @@ E-commerce Website in `OOP Php`, `Bootstrap`, `Owl carousel`, `PHP partial Templ
 
 > Used technologies :-
 >- HTML & CSS
+>- jQuery
+>- Isotope Library for sorting or filtering
 >- PHP & MySQLi
 >- Git - version control
 >- cdnjs.com
@@ -23,3 +25,7 @@ E-commerce Website in `OOP Php`, `Bootstrap`, `Owl carousel`, `PHP partial Templ
     "start":"sass ./sass/style.scss style.css --watch"
   },
 > - - `npm start` in terminal
+> 
+
+
+
