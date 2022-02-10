@@ -58,10 +58,11 @@ $(document).ready(function () {
     // product Qty Specifications
     var $qty_up = $(".qty .qty_up");
     let $qty_down = $(".qty .qty_down");
-    let $qty_input = $(".qty .qty_input");
+    //let $qty_input = $(".qty .qty_input");
 
     //click on the qty_up button
-    $qty_up.click(function(e) {
+    $qty_up.click(function (e) {
+        let $qty_input = $(`.qty_input[data-id='${$(this).data("id")}]`);
         if($qty_input.val() >= 1 && $qty_input.val() <= 9) {
             $qty_input.val(function (i, oldVal) {
                 return ++oldVal;
@@ -71,6 +72,7 @@ $(document).ready(function () {
 
     //click on the qty_down button
     $qty_down.click(function (e) {
+        let $qty_input = $(`.qty_input[data-id='${$(this).data("id")}]`);
         if ($qty_input.val() > 1 && $qty_input.val() <= 10) {
             $qty_input.val(function (i, oldVal) {
                 return --oldVal;
